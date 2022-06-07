@@ -1,0 +1,75 @@
+{
+  "closeFactor": "500000000000000000",
+  "maxAssets": "100",
+  "liquidationIncentive": "1100000000000000000",
+  "tokens": [
+    {
+      "address": "0x65a51E52eCD17B641f8F0D1d56a6c9738951FDC9",
+      "name": "Wrapped ADA",
+      "symbol": "WADA",
+      "decimals": 18,
+      "initialExchangeRateMantissa": "200000000000000000000000000",
+      "collateralFactor": "600000000000000000",
+      "interestRateModel": {
+        "type": "JumpRateModelV2",
+        "address": "",
+        "baseRatePerYear": "200000000000000000",
+        "multiplierPerYear": "100000000000000000",
+        "jumpMultiplierPerYear": "2000000000000000000",
+        "kink": "200000000000000000",
+        "owner": "0x37D68442b0b249A5e0Dd23108f9a2C95cdcb0842"
+      }
+    },
+    {
+      "address": "0xC12F6Ee5c853393105f29EF0310e61e6B494a70F",
+      "name": "USD Coin",
+      "symbol": "USDC",
+      "decimals": 6,
+      "initialExchangeRateMantissa": "200000000000000",
+      "collateralFactor": "800000000000000000",
+      "interestRateModel": {
+        "type": "JumpRateModelV2",
+        "address": "",
+        "baseRatePerYear": "0",
+        "multiplierPerYear": "70000000000000000",
+        "jumpMultiplierPerYear": "1000000000000000000",
+        "kink": "200000000000000000",
+        "owner": "0x37D68442b0b249A5e0Dd23108f9a2C95cdcb0842"
+      }
+    },
+    {
+      "address": "0xd034bc3C84837Cfa08c8ECdD3F8d9EBB0D67e3B0",
+      "name": "Wrapped Ether",
+      "symbol": "ETH",
+      "decimals": 18,
+      "initialExchangeRateMantissa": "200000000000000000000000000",
+      "collateralFactor": "800000000000000000",
+      "interestRateModel": {
+        "type": "JumpRateModelV2",
+        "address": "",
+        "baseRatePerYear": "0",
+        "multiplierPerYear": "70000000000000000",
+        "jumpMultiplierPerYear": "1000000000000000000",
+        "kink": "200000000000000000",
+        "owner": "0x37D68442b0b249A5e0Dd23108f9a2C95cdcb0842"
+      }
+    },
+    {
+      "address": "0xC12F6Ee5c853393105f29EF0310e61e6B494a70F",
+      "name": "MilkySwap Token",
+      "symbol": "MILKY",
+      "decimals": 18,
+      "initialExchangeRateMantissa": "200000000000000000000000000",
+      "collateralFactor": "0",
+      "interestRateModel": {
+        "type": "JumpRateModelV2",
+        "address": "",
+        "baseRatePerYear": "200000000000000000",
+        "multiplierPerYear": "100000000000000000",
+        "jumpMultiplierPerYear": "3000000000000000000",
+        "kink": "200000000000000000",
+        "owner": "0x37D68442b0b249A5e0Dd23108f9a2C95cdcb0842"
+      }
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "closeFactor": "500000000000000000",
+  "maxAssets": "100",
+  "liquidationIncentive": "1100000000000000000",
+  "tokens": [
+    {
+      "address": "0x5FbDB2315678afecb367f032d93F642f64180aa3",
+      "name": "Test Token",
+      "symbol": "TEST",
+      "decimals": 18,
+      "initialExchangeRateMantissa": "200000000000000000000000000",
+      "collateralFactor": "600000000000000000",
+      "interestRateModel": {
+        "type": "JumpRateModelV2",
+        "address": "",
+        "baseRatePerYear": "200000000000000000",
+        "multiplierPerYear": "100000000000000000",
+        "jumpMultiplierPerYear": "2000000000000000000",
+        "kink": "200000000000000000",
+        "owner": "0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266"
+      }
+    },
+    {
+      "address": "0xe7f1725E7734CE288F8367e1Bb143E90bb3F0512",
+      "name": "Test Token 2",
+      "symbol": "TEST2",
+      "decimals": 18,
+      "initialExchangeRateMantissa": "200000000000000000000000000",
+      "collateralFactor": "0",
+      "interestRateModel": {
+        "type": "JumpRateModelV2",
+        "address": "",
+        "baseRatePerYear": "0",
+        "multiplierPerYear": "70000000000000000",
+        "jumpMultiplierPerYear": "1000000000000000000",
+        "kink": "200000000000000000",
+        "owner": "0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266"
+      }
+    }
+  ]
+}

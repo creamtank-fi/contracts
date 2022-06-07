@@ -1,0 +1,8 @@
+{
+  "_setPendingImplementation": "0x9f37119d4b0e8a718ecce68f3663a4444d02bcf08f549c23c4a0b734bcfa97c3",
+  "_become": "0xffc12ecface24e6f31d27b06c61e0003feb896843a0c821651177e2d948faf98",
+  "_setPriceOracle": "0x65d7b154fe4563a192ef16faa75c33b4c776925b03359596e6bac392c654b306",
+  "_setCloseFactor": "0x7dbcd695d7f602447d8d5a659eee7c128a115a45d6acdf764010752eff5b2c7c",
+  "_setMaxAssets": "0x708bb867f56885749f3cafdc01cb1bb8b698514779b47cf649d75eb062c0d700",
+  "_setLiquidationIncentive": "0x5c753a3898916383597ac4bff9ea1e8db33f17ea2512816c252ed962dc1ad894"
+}

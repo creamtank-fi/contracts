@@ -1,0 +1,78 @@
+{
+  "cWADA": {
+    "deployer": "0x37D68442b0b249A5e0Dd23108f9a2C95cdcb0842",
+    "delegate": "0x85D0DB76DdBF7CfA00DC0c62314e0Ebfc77e3Ff8",
+    "delegator": "0xC6df22d10Df80C414fAF1Ff69a4FC2f9A462559b",
+    "underlying": "0x65a51E52eCD17B641f8F0D1d56a6c9738951FDC9",
+    "interestRateModel": {
+      "type": "JumpRateModelV2",
+      "address": "0x80173742B7cdCE2Cb25C1D5C183822d55C78CfEf",
+      "baseRatePerYear": "200000000000000000",
+      "multiplierPerYear": "100000000000000000",
+      "jumpMultiplierPerYear": "2000000000000000000",
+      "kink": "200000000000000000",
+      "owner": "0x37D68442b0b249A5e0Dd23108f9a2C95cdcb0842"
+    },
+    "initialExchangeRate": "200000000000000000000000000",
+    "collateralFactor": "600000000000000000",
+    "supportMarketTx": "0x9f3dae8d00d913d065737e7501e79eb579967c1c62ddc247f3e53c40bc47064a",
+    "collateralFactorTx": "0x69a8078cef17e718b9b9ec01995000db35711465a11f60b3162578ffd596f685"
+  },
+  "cUSDC": {
+    "deployer": "0x37D68442b0b249A5e0Dd23108f9a2C95cdcb0842",
+    "delegate": "0x3c3268B0a810Ae10460320427938035eb51a44A8",
+    "delegator": "0x70458D99Ec3c3FF703fA2eF5dfEfFfa14f7cD2Fc",
+    "underlying": "0xC12F6Ee5c853393105f29EF0310e61e6B494a70F",
+    "interestRateModel": {
+      "type": "JumpRateModelV2",
+      "address": "0x8FE20e771479b306E4Ea5D677253A6c1A5FdD1e4",
+      "baseRatePerYear": "0",
+      "multiplierPerYear": "70000000000000000",
+      "jumpMultiplierPerYear": "1000000000000000000",
+      "kink": "200000000000000000",
+      "owner": "0x37D68442b0b249A5e0Dd23108f9a2C95cdcb0842"
+    },
+    "initialExchangeRate": "200000000000000",
+    "collateralFactor": "800000000000000000",
+    "supportMarketTx": "0x51ebf10e9e5c29fafcbbc5d25d5005628ae01be170daf97dae87e01734bfbd2b",
+    "collateralFactorTx": "0x458ac5111e43765f328dbe0d25aba60340c037597eb05cb8e635fb9150009207"
+  },
+  "cETH": {
+    "deployer": "0x37D68442b0b249A5e0Dd23108f9a2C95cdcb0842",
+    "delegate": "0x882c861b9bcF6bf1431B80b85a4bE6A528629886",
+    "delegator": "0x95e5a935A37C11a90E3B18f42270509021dEDd06",
+    "underlying": "0xd034bc3C84837Cfa08c8ECdD3F8d9EBB0D67e3B0",
+    "interestRateModel": {
+      "type": "JumpRateModelV2",
+      "address": "0x2a0e7415108bB5ba5bEcc41F1C2350970B66e5FD",
+      "baseRatePerYear": "0",
+      "multiplierPerYear": "70000000000000000",
+      "jumpMultiplierPerYear": "1000000000000000000",
+      "kink": "200000000000000000",
+      "owner": "0x37D68442b0b249A5e0Dd23108f9a2C95cdcb0842"
+    },
+    "initialExchangeRate": "200000000000000000000000000",
+    "collateralFactor": "800000000000000000",
+    "supportMarketTx": "0x9fe5fe4d8249fa9488c726a900dc6ae2dcaa68d1e76b0815b25b52288fd63a9d",
+    "collateralFactorTx": "0x0a0f7af800958c59662dad28e5abd06a5c7f15c051d73b3b7ece75f2c5bbd435"
+  },
+  "cMILKY": {
+    "deployer": "0x37D68442b0b249A5e0Dd23108f9a2C95cdcb0842",
+    "delegate": "0x92e6b18AfabEb0b17fBFdaB45C25BcF457690A0d",
+    "delegator": "0x54Fe91934e2b47c7B3612E41444dA583Ffef5040",
+    "underlying": "0xC12F6Ee5c853393105f29EF0310e61e6B494a70F",
+    "interestRateModel": {
+      "type": "JumpRateModelV2",
+      "address": "0x7Be39CeFb26ebEDABad2C0512b48665502F4bB92",
+      "baseRatePerYear": "200000000000000000",
+      "multiplierPerYear": "100000000000000000",
+      "jumpMultiplierPerYear": "3000000000000000000",
+      "kink": "200000000000000000",
+      "owner": "0x37D68442b0b249A5e0Dd23108f9a2C95cdcb0842"
+    },
+    "initialExchangeRate": "200000000000000000000000000",
+    "collateralFactor": "0",
+    "supportMarketTx": "0x1c50d1bccd76f76b5f790246d2008c09424e4beb61301b5492180c1712c956ea",
+    "collateralFactorTx": "0x4bd7c06eb7627ad26abc67e6dedf16085d313a52f1f18121ecb30d414c2c88c4"
+  }
+}
