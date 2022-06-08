@@ -1,12 +1,12 @@
 {
   "cWADA": {
     "deployer": "0x37D68442b0b249A5e0Dd23108f9a2C95cdcb0842",
-    "delegate": "0x85D0DB76DdBF7CfA00DC0c62314e0Ebfc77e3Ff8",
-    "delegator": "0xC6df22d10Df80C414fAF1Ff69a4FC2f9A462559b",
+    "delegate": "0x544cf84B1d630639A696FeD7a21360Ab5C2C02e4",
+    "delegator": "0x1D824760e07c260885488aEb90a010bE6B370767",
     "underlying": "0x65a51E52eCD17B641f8F0D1d56a6c9738951FDC9",
     "interestRateModel": {
       "type": "JumpRateModelV2",
-      "address": "0x80173742B7cdCE2Cb25C1D5C183822d55C78CfEf",
+      "address": "0x3A447228575eB06e52B427F86E06cf50e1f04DF9",
       "baseRatePerYear": "200000000000000000",
       "multiplierPerYear": "100000000000000000",
       "jumpMultiplierPerYear": "2000000000000000000",
@@ -15,17 +15,17 @@
     },
     "initialExchangeRate": "200000000000000000000000000",
     "collateralFactor": "600000000000000000",
-    "supportMarketTx": "0x9f3dae8d00d913d065737e7501e79eb579967c1c62ddc247f3e53c40bc47064a",
-    "collateralFactorTx": "0x69a8078cef17e718b9b9ec01995000db35711465a11f60b3162578ffd596f685"
+    "supportMarketTx": "0x0dd46e9b9a8781db0cbbddf7317bc3d1733b2f9c97549fb2ca1fe9783607d987",
+    "collateralFactorTx": "0x36ae6d0e8ffab1a96c7b1bf2bfc8a04f5cac7727e20c03515d61f4830f3e4aa4"
   },
   "cUSDC": {
     "deployer": "0x37D68442b0b249A5e0Dd23108f9a2C95cdcb0842",
-    "delegate": "0x3c3268B0a810Ae10460320427938035eb51a44A8",
-    "delegator": "0x70458D99Ec3c3FF703fA2eF5dfEfFfa14f7cD2Fc",
+    "delegate": "0xf67f1733A28B65748ba7CeA21Ab5edF77DD6e7F4",
+    "delegator": "0xEC004E9f5c20bf3df5Db225bdF430a51C50fc645",
     "underlying": "0xC12F6Ee5c853393105f29EF0310e61e6B494a70F",
     "interestRateModel": {
       "type": "JumpRateModelV2",
-      "address": "0x8FE20e771479b306E4Ea5D677253A6c1A5FdD1e4",
+      "address": "0xF0bE3205F7258DB22682a744f340130F8B1c53C7",
       "baseRatePerYear": "0",
       "multiplierPerYear": "70000000000000000",
       "jumpMultiplierPerYear": "1000000000000000000",
@@ -34,17 +34,17 @@
     },
     "initialExchangeRate": "200000000000000",
     "collateralFactor": "800000000000000000",
-    "supportMarketTx": "0x51ebf10e9e5c29fafcbbc5d25d5005628ae01be170daf97dae87e01734bfbd2b",
-    "collateralFactorTx": "0x458ac5111e43765f328dbe0d25aba60340c037597eb05cb8e635fb9150009207"
+    "supportMarketTx": "0x1d4d67a4637ee072959d95a3c10b019aecee8ebe361722f6415fd375ccdf0a94",
+    "collateralFactorTx": "0x8fc7c203e4d060f53cf29181eae8734adeaf591a41d0cf0b6e305be40d0b124f"
   },
   "cETH": {
     "deployer": "0x37D68442b0b249A5e0Dd23108f9a2C95cdcb0842",
-    "delegate": "0x882c861b9bcF6bf1431B80b85a4bE6A528629886",
-    "delegator": "0x95e5a935A37C11a90E3B18f42270509021dEDd06",
+    "delegate": "0x5a1216C6f33e42C9EB3586931b0dDE88070F8226",
+    "delegator": "0x13E963056CDDcaD97d17dDb589fa8Fd802A5e7F8",
     "underlying": "0xd034bc3C84837Cfa08c8ECdD3F8d9EBB0D67e3B0",
     "interestRateModel": {
       "type": "JumpRateModelV2",
-      "address": "0x2a0e7415108bB5ba5bEcc41F1C2350970B66e5FD",
+      "address": "0x691A7269C8C9d4b465d873d4B2137Bf83a9737dB",
       "baseRatePerYear": "0",
       "multiplierPerYear": "70000000000000000",
       "jumpMultiplierPerYear": "1000000000000000000",
@@ -53,17 +53,17 @@
     },
     "initialExchangeRate": "200000000000000000000000000",
     "collateralFactor": "800000000000000000",
-    "supportMarketTx": "0x9fe5fe4d8249fa9488c726a900dc6ae2dcaa68d1e76b0815b25b52288fd63a9d",
-    "collateralFactorTx": "0x0a0f7af800958c59662dad28e5abd06a5c7f15c051d73b3b7ece75f2c5bbd435"
+    "supportMarketTx": "0x371d01377af032201589b5f4b4132cbd22a75c469e03fe57ee63aa6985dbe0f6",
+    "collateralFactorTx": "0x872434eae3172fcca45c92359485d3dc34f224e3e7aedf095f97a55bbda9e1e7"
   },
   "cMILKY": {
     "deployer": "0x37D68442b0b249A5e0Dd23108f9a2C95cdcb0842",
-    "delegate": "0x92e6b18AfabEb0b17fBFdaB45C25BcF457690A0d",
-    "delegator": "0x54Fe91934e2b47c7B3612E41444dA583Ffef5040",
-    "underlying": "0xC12F6Ee5c853393105f29EF0310e61e6B494a70F",
+    "delegate": "0xf9551Dfb0b28A4734656597E07eef6882540bDCE",
+    "delegator": "0xb531b27CD73F5c5A8376f36304F0AF91fE04bB22",
+    "underlying": "0x7642aD41d0fAFd7a42bBC681CFcAA4448DFD3CBc",
     "interestRateModel": {
       "type": "JumpRateModelV2",
-      "address": "0x7Be39CeFb26ebEDABad2C0512b48665502F4bB92",
+      "address": "0x8D76B3517D7462D7e1Ba07422f599293c4709fc5",
       "baseRatePerYear": "200000000000000000",
       "multiplierPerYear": "100000000000000000",
       "jumpMultiplierPerYear": "3000000000000000000",
@@ -72,7 +72,7 @@
     },
     "initialExchangeRate": "200000000000000000000000000",
     "collateralFactor": "0",
-    "supportMarketTx": "0x1c50d1bccd76f76b5f790246d2008c09424e4beb61301b5492180c1712c956ea",
-    "collateralFactorTx": "0x4bd7c06eb7627ad26abc67e6dedf16085d313a52f1f18121ecb30d414c2c88c4"
+    "supportMarketTx": "0x5c04069cadc603de81c3d741d6fb0b113e2a2d06214ba4c4def200cf2cdc5082",
+    "collateralFactorTx": "0xdc72efa2c0f7e43526068b5f3e0773d4f2070c6dd3d4d6cf26c40a4a4a93e72f"
   }
 }

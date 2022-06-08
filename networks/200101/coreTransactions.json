@@ -1,8 +1,8 @@
 {
-  "_setPendingImplementation": "0xeb9e3172e315637f6f259c603637bd873690998cb13366ddf7d7aa5902b3adc1",
-  "_become": "0xa7da73b12e47f3625cb2854b0da4e2bf5adbe2eb68323031226062ae8e411c2e",
-  "_setPriceOracle": "0x17f2cac53c8b602d0f905970c403a353177fe520a31df609c4a5fc8b3dbd1f20",
-  "_setCloseFactor": "0xef8dc393f321c011c3d6e4d5061b16c6a28ff2e962a86015de608462feeb19c7",
-  "_setMaxAssets": "0xf17398337f34b981130d951db036ef9d3cce23eb29bdb65c51acfe380e107509",
-  "_setLiquidationIncentive": "0x132bcda6f4b80aa4d4cce0d8a32bf46cbf04cc4db8037259970ada2f42f7fe5c"
+  "_setPendingImplementation": "0x260579198bb49ebd0b0d1a75831603d97e466740a25a5f47b0a8fea49624ba5d",
+  "_become": "0x4a789227de4f5518e9c9c4b45d347aeaf2d747e232c70820f5a27e8fe6d01ef1",
+  "_setPriceOracle": "0x6974dc129978991ba8f1964d225b9898337613e517d07af62e08b15960e369c4",
+  "_setCloseFactor": "0xd924ef891c087f517acee2a15592c5f749e56349a40e3b03138ad53c2d7b05b2",
+  "_setMaxAssets": "0xec213593b52c31d4e8829851776fc66bcdc23367fec4b735a15fe530d8bbbd12",
+  "_setLiquidationIncentive": "0xcb3d75d5a977a3daa8d468ce09b82a5b16ae9a167aa5ccd860c083a4bafe5411"
 }
