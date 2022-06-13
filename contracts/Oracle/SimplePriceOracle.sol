@@ -31,6 +31,7 @@ contract SimplePriceOracle is PriceOracle {
     }
 
     function setDirectPrice(address asset, uint price) public {
+        require(msg.sender == poster, "only poster can set direct price");
         emit PricePosted(asset, prices[asset], price, price);
         prices[asset] = price;
     }
