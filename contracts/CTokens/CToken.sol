@@ -872,13 +872,6 @@ contract CToken is CTokenInterface, Exponential, TokenErrorReporter {
             return (failOpaque(Error.MATH_ERROR, FailureInfo.REPAY_BORROW_ACCUMULATED_BALANCE_CALCULATION_FAILED, uint(vars.mathErr)), 0);
         }
 
-        /* If repayAmount == -1, repayAmount = accountBorrows */
-        if (repayAmount == uint(-1)) {
-            vars.repayAmount = vars.accountBorrows;
-        } else {
-            vars.repayAmount = repayAmount;
-        }
-
         /////////////////////////
         // EFFECTS & INTERACTIONS
         // (No safe failures beyond this point)
