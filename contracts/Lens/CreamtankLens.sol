@@ -398,9 +398,9 @@ contract CreamtankLens {
         address _ctank,
         address payable _account
     ) external returns (uint256) {
-        uint256 balanceBefore = _account.balance;
+        uint256 balanceBefore = Ctank(_ctank).balanceOf(_account);
         CreamtrollerRewards(_creamtroller).claimReward(_account);
-        uint256 balanceAfter = _account.balance;
+        uint256 balanceAfter = Ctank(_ctank).balanceOf(_account);
         return sub(balanceAfter, balanceBefore, "sub error");
     }
 
