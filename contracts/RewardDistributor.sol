@@ -17,6 +17,7 @@ contract RewardDistributorStorage {
      * @notice Active brains of Unitroller
      */
     Creamtroller public creamtroller;
+    bool public creamtrollerSet;
 
     struct RewardMarketState {
         /// @notice The market's last updated ctankBorrowIndex or ctankSupplyIndex
@@ -421,6 +422,7 @@ contract RewardDistributor is RewardDistributorStorage, Exponential {
      */
     function setCreamtroller(address _creamtroller) public {
         require(msg.sender == admin, "only admin can set Creamtroller");
+        require(!creamtrollerSet, "Creamtroller can only be set once");
         creamtroller = Creamtroller(_creamtroller);
     }
 
